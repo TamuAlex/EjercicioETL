@@ -5,7 +5,7 @@
       "sources": [
         {
           "name": "person_inputs",
-          "path": "/data/input/events/person/*",
+          "path": "data/input/events/person/*",
           "format": "JSON"
         }
       ],
@@ -46,7 +46,7 @@
           "input": "ok_with_date",
           "name": "raw-ok",
           "paths": [
-            "/data/output/events/person"
+            "data/output/events/person"
           ],
           "format": "JSON",
           "saveMode": "OVERWRITE"
@@ -55,7 +55,7 @@
           "input": "validation_ko",
           "name": "raw-ko",
           "paths": [
-            "/data/output/discards/person"
+            "data/output/discards/person"
           ],
           "format": "JSON",
           "saveMode": "OVERWRITE"
